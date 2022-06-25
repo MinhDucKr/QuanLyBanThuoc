@@ -49,5 +49,46 @@ namespace QuanLyBanThuoc
 
 
         }
+
+        private void hóaĐơnNhậpKhoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn muốn đăng xuất?", "Xác nhận yêu cầu", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                this.Hide();
+                frmLogin f = new frmLogin();
+                f.ShowDialog();
+                
+            }
+        }
+
+        private void danhMụcToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmDMThuoc f = new frmDMThuoc();
+            f.Show();
+        }
+
+        private void danhMụcKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDMKH f = new frmDMKH();
+            f.Show();
+        }
+
+        private void danhMụcNhàCungCấpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDMNCC f = new frmDMNCC();
+            f.Show();
+           
+        }
+
+        private void danhMụcNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDMNV f = new frmDMNV();
+            f.Show();
+        }
     }
 }

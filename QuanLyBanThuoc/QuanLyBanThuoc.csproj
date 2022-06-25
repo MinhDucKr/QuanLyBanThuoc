@@ -43,16 +43,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmDMKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDMKH.Designer.cs">
+      <DependentUpon>frmDMKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDMNCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDMNCC.Designer.cs">
+      <DependentUpon>frmDMNCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDMNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDMNV.Designer.cs">
+      <DependentUpon>frmDMNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDMThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDMThuoc.Designer.cs">
+      <DependentUpon>frmDMThuoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmDMKH.resx">
+      <DependentUpon>frmDMKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDMNCC.resx">
+      <DependentUpon>frmDMNCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDMNV.resx">
+      <DependentUpon>frmDMNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDMThuoc.resx">
+      <DependentUpon>frmDMThuoc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -82,6 +127,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banner trơn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thiết kế chưa có tên 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thêm nội dung thân văn bản.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thêm nội dung thân văn bản1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sống khỏe đẹp mỗi ngày.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
